@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p114",
+  "id": "tacticalmap-p114",
+  "title": "Goblin Territory",
+  "description": "Goblin Tunnel, Goblin Dwellings, Goblin Burrows",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "13",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "goblin-territory",
+      "label": "Goblin Territory",
+      "path": "packs/goblin-territory.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "goblin-territory",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p114/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p114/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
